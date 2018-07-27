@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int offset = RingtailUtil.DaysOff("10/28/2001", "01:15:00", "America/Los_Angeles", "America/New_York");
+            int offset = RingtailUtil.DaysOff("10/28/2001", "04:15:00", "America/New_York", "UTC");
         }
     }
 }
